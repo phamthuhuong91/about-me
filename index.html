@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img src ="lab2_icon.jpg" id="icon">
+        <h1>Huong Pham</h1>
+        <div class ="navigation">
+          <ul>
+            <ls>Home</ls>
+            <ls>About me</ls>
+            <ls>Contact</ls>
+            <ls>FAQ</ls>
+          </ul>  
+        </div>        
+    </header>
+    
+    <main>
+        <div class ="greetings">
+            <p id ="greeting"></p>
+        </div>
+        
+        <section class ="about_me">
+            <p id ="toptag">So, who am I?</p>
+            <div class ="container">
+              <article>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+              </article>
+              <img src="lab2_avatar.jpg" alt="avatar" id ="avatar">
+            </div>
+        </section>
+
+        <section class ="work_edu">
+          <div class ="work">
+            Work Experience
+            <ul style="list-style-type: circle;">
+              <li>Postdoctoral Researcher</li>
+              <li>Graduate Research Assistant</li>
+              <li>Graduate Teaching Assistant</li>
+              <li>Laboratory Technician</li>
+            </ul>
+          </div>
+          <div class ="edu">
+            Education 
+            <ul>
+              <li> PhD in Civil Engineering</li>
+              <li> Ms in Civil Engineering</li>
+              <li> BS in Chemistry</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="top_ten_movies">
+          <span>My Top Ten Movies</span>
+          <ol class="top_ten_movies">
+            <li>Lord of the rings - Triology</li>
+            <li>Dark Knight - Triology</li>
+            <li>Inception</li>
+            <li>Spirited Away</li>
+            <li>The Lion King</li>
+            <li>3 Idiots</li>
+            <li>Dune</li>
+            <li>Pretty Woman</li>
+            <li>Jurassic Park</li>
+            <li>Howl's Moving Castle</li>
+          </ol>
+        </section>
+
+        <div class="interactive_mess">
+          <p id="message"></p>
+          <button style="margin: auto; display: block;" onclick="question()" id="q_button">Yes No Question</button>
+          <button style="margin: auto; display: block;" onclick="question6()" id="q6">Question 6</button>
+        </div>
+    </main>
+
+    <footer>
+      <p>© 2024 HP </p>
+    </footer>
+	
+  </body>
+
+</html>
