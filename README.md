@@ -1,1 +1,3 @@
-# about-me
+![lab2](Lighthouse_reoprt_lab2.png)
+
+![lab3](Lighthouse_reoprt_lab3.png)

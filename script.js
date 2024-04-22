@@ -12,6 +12,7 @@ window.onload = function() {
 }
 
 function question() {
+
 let int_mess ="";
 // question 1
 let book = prompt("Have you read all the Harry Potter books?");
@@ -89,15 +90,15 @@ if ((park_convert == "yes")||(park_convert == "y")) {
 
 document.getElementById("message").innerHTML = int_mess;
 document.getElementById("q_button").disable = true;
-}
 
-function question6() {
+let count =5;
     let number = prompt("Please guess a number");
     let i = 2;
     let random = Math.floor(Math.random()*1000);
     while (i <= 5) {
         if (number == random) {
-            alert("You are correct! The answer is "+random+".")
+            alert("You are correct! The answer is "+random+".");
+            count++;
             {break;}
         } else {
             let cmp = (number < random) ? "Too low":"Too High";
@@ -111,6 +112,27 @@ function question6() {
             }                 
         }     
         }
+
+    let q7_key =["the fellowship of the ring","the two tower","the return of the king"];
+    let q7_i = 2;
+    let q7_ans = prompt("What is one of the Lord of the Rings trilogy movies?");
+    while (q7_i <=7) {
+        let q7_ansconvert = q7_ans.toLowerCase();
+        if (q7_key.includes(q7_ansconvert)) {
+            alert("You have the correct answer!");
+            count++;
+            {break;}
+        } else {
+            if (q7_i <= 6) {
+                q7_ans = prompt("Your answer is not correct! Please try again. What is one of the Lord of the Rings Trilogy movies? This is the attempt number "+q7_i);
+            } else {
+                alert("You answer is not correct and run out of attempt");
+            }
+            q7_i++;
+        }
+    }
+    alert("Lord of the Rings trilogy includes: "+q7_key);
+    alert("Your correct answers are "+count);
 }
     
 

@@ -16,9 +16,9 @@ header {
     border-radius: 60%;
 }
 
-ls {
+.navigation {
+    display: inline-block;
     padding-right: 30px;
-    text-align: center;
 }
 
 .greetings {
