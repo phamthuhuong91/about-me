@@ -3,6 +3,7 @@ body {
     margin-left: 10%;
     margin-right: 5%;
     margin-bottom: 15%;
+    background-color: #eff9f0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -18,12 +19,16 @@ header {
 
 .navigation {
     display: inline-block;
-    padding-right: 30px;
+    padding: 20px;
+}
+
+.navigation:hover {
+    background-color: gray;
 }
 
 .greetings {
     text-align: center;
-    font-size: large;
+    font-size: xx-large;
     color: red;
     padding: 1%;
 }
@@ -32,6 +37,13 @@ header {
     font-size: xx-large;
 }
 
+button {
+    padding: 20px;
+    border-radius: 12px;
+    font-size: medium;
+    background-color: #30323D;
+    color: #e3b505;
+}
 .container {
     display:grid;
     align-items: center;

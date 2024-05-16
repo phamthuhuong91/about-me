@@ -2,7 +2,6 @@
 
 let alias = prompt("What is your name?");
 let greeting_text="Hello "+alias+"!";
-console.log(greeting_text);
 
 window.onload = function() {
     greeting();
@@ -19,7 +18,6 @@ let book = prompt("Have you read all the Harry Potter books?");
 let book_convert = book.toLowerCase();
 while (!((book_convert == "yes")||(book_convert == "y")||(book_convert == "no")||(book_convert == "n"))) {
     book = prompt("Invalid answer. Have you read all the Harry Potter books?");
-    console.log("Invalid answer! The accepted one are yes/y or no/n");
     book_convert = book.toLowerCase();
 }
 alert("Your answer is "+book)
@@ -34,7 +32,6 @@ let game = prompt("Do you like video games?");
 let game_convert = game.toLowerCase();
 while (!((game_convert == "yes")||(game_convert == "y")||(game_convert == "no")||(game_convert == "n"))) {
     game = prompt("Invalid answer. Do you like video games?");
-    console.log("Invalid answer! The accepted one are yes/y or no/n");
     game_convert = game.toLowerCase();
 }
 alert("Your answer is "+game)
@@ -49,7 +46,6 @@ let travel = prompt("Have you ever gone camping?");
 let travel_convert = travel.toLowerCase();
 while (!((travel_convert == "yes")||(travel_convert == "y")||(travel_convert == "no")||(travel_convert == "n"))) {
     travel = prompt("Invalid answer. Have you ever gone camping?");
-    console.log("Invalid answer! The accepted one are yes/y or no/n");
     travel_convert = travel.toLowerCase();
 }
 alert("Your answer is "+travel)
@@ -64,7 +60,6 @@ let trick = prompt("Can you whistle?");
 let trick_convert = trick.toLowerCase();
 while (!((trick_convert == "yes")||(trick_convert == "y")||(trick_convert == "no")||(trick_convert == "n"))) {
     trick = prompt("Invalid answer. Can you whistle?");
-    console.log("Invalid answer! The accepted one are yes/y or no/n");
     trick_convert = trick.toLowerCase();
 }
 alert("Your answer is "+trick)
@@ -78,7 +73,6 @@ let park = prompt("Have you ever been to Disneyland");
 let park_convert = park.toLowerCase();
 while (!((park_convert == "yes")||(park_convert == "y")||(park_convert == "no")||(park_convert == "n"))) {
     park = prompt("Invalid answer. Have you ever been to Disneyland?");
-    console.log("Invalid answer! The accepted one are yes/y or no/n");
     park_convert = park.toLowerCase();
 }
 alert("Your answer is "+park)
