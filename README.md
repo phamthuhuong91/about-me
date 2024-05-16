@@ -1,3 +1,7 @@
-![lab2](Lighthouse_reoprt_lab2.png)
+Lab2
 
-![lab3](Lighthouse_reoprt_lab3.png)
+![lab2](Lighthouse_report_lab2.png)
+
+Lab 3
+
+![lab3](Lighthouse_report_lab3.png)
