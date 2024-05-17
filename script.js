@@ -55,6 +55,7 @@ if ((travel_convert == "yes")||(travel_convert == "y")) {
     int_mess += "You should go camping and hiking sometime. It is really relaxing. "
 }
 
+
 //question 4
 let trick = prompt("Can you whistle?");
 let trick_convert = trick.toLowerCase();
@@ -127,6 +128,13 @@ let count =5;
     }
     alert("Lord of the Rings trilogy includes: "+q7_key);
     alert("Your correct answers are "+count);
+     // question 9
+     let book2 = prompt("What is your favorite book?");
+     let book2_convert = book2.toLowerCase();
+     console.log(book2);
+     // () paranthesis (I can't spell)
+     // [] brackets
+     // {} curl braces
+     alert("your favorite book " + book2);
 }
     
-
